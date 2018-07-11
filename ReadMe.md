@@ -6,10 +6,10 @@ A Java web-app that makes based64 enconded Json comparisons.
 ### Description:
 
 - Provides two http endpoints that accept JSON base64 encoded binary data on both endpoints:
-  - <host>/v1/diff/<id>/left
-  - <host>/v1/diff/<id>/right
+  - <host>/v1/diff/<ID>/left
+  - <host>/v1/diff/<ID>/right
 - Provided data are diff-ed and results are available on the third endpoint:
-  - <host>/v1/diff/<id>
+  - <host>/v1/diff/<ID>
 - Results provide the following information in JSON format:
   - Data are equal,
   - Data have the same size but have differeces, and
